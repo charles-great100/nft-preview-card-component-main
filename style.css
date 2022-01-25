@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    color: hsl(217, 15%, 48%);
+}
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.card {
+    width: 350px;
+    height: 600px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+}
+
+.card-title {
+    color: white;
+    max-width: 80%;
+    margin: 20px 30px;
+}
+
+.class-description {
+    width: 85%;
+    margin-left: 30px;
+}
+
+.img-equilibrium {
+    width: 85%;
+    height: 50%;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-left: 27px;
+}
+
+.card-info {
+    display: flex;
+    justify-content: space-between;
+    width: 85%;
+    margin-left: 30px;
+}
+
+.eth-price {
+    display: flex;
+}
+
+.eth-price p {
+    margin-left: 5px;
+    color: rgb(35, 160, 154);
+}
+
+.time-left {
+    display: flex;
+}
+
+.time-left p {
+    margin-right: 30px;
+}
+
+.creator {
+    border-top: 1px solid hsl(217, 15%, 48%);
+    width: 85%;
+    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: 30px;
+    display: flex;
+}
+
+.profile-pic {
+    width: 30px;
+    height: 30px;
+    position: relative;
+}
+
+.creator p {
+    margin-left: 20px;
+    margin-top: 4px;
+}
+
+.creator p span {
+    margin-left: 5px;
+    color: white;
+}
